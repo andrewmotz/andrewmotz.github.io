@@ -1,10 +1,10 @@
 # My Personal Webpage
 
-Nothing exciting.
+Page for contact info, resume download and all that fun stuff.
 
 ## URL
 
-The [link](www.andrewmotz.com) to the page.
+The [link](https://www.andrewmotz.com) to the page.
 
 ## License
 
