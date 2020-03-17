@@ -44,14 +44,20 @@ nav > ul {
 }
 
 ul > li {
-    background-color: gray;
+    background-color: white;
     text-decoration: none;
-    padding: .5em 1em 0px 1em;
-    border-left: 1px solid black;
+    padding: .5em 1em .5em 1em;
+    border-left: 1px solid lightgray;
+    text-align: center;
 }
 
 ul > li:nth-of-type(5){
-    border-right: 1px solid black;
+    border-right: 1px solid lightgray;
+}
+
+
+div#profile_links {
+    padding-top: .3em;
 }
 
 /* Link styles */
@@ -60,6 +66,10 @@ a {
 }
 a:visited {
     color: black;
+}
+li:hover, a:hover {
+    background-color: lightgray;
+    text-decoration: underline;
 }
 
 /* Footer */
@@ -72,9 +82,13 @@ footer {
     bottom: 0px;
 }
 
+footer > p {
+    margin: .4em 0 .4em 0;
+}
+
 /* Temporary, to bring icons under control */
 div#profile_links>a>img {
-    max-height: 2em;
+    max-height: 1.5em;
 }
 
 div#right_image>img {
