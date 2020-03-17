@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+html {
+    background: url(hayden-scott.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    background: none;
+}
+
+div#left_content {
+    color: white;
+    font-size: 2em;
+}
+div#left_content > h1 {
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    padding-bottom: .35em;
+}
+
+div#left_content > p{
+    margin-top: 0px;
+    padding-top: .35em;
+}

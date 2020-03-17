@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+article {
+    box-sizing: border-box;
+    padding: 2em;
+    width: 80%;
+    margin: 1em auto 0 auto;
+    background: rgba(255,255,255, .80);
+    border-radius: 10px;
+}
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    padding: .5em 0px 0px 0px;
+    height: 100%;
+    box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+}
+
+/* Nav Bar */
+header{
+    position: sticky;
+    top: 0px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    padding: 0 1em 0 1em;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, .9);
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+}
+
+ul > li {
+    background-color: gray;
+    text-decoration: none;
+    padding: .5em 1em 0px 1em;
+    border-left: 1px solid black;
+}
+
+ul > li:nth-of-type(5){
+    border-right: 1px solid black;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+}
+
+/* Temporary, to bring icons under control */
+div#profile_links>a>img {
+    max-height: 2em;
+}
+
+div#right_image>img {
+    max-height: 30em;
+}

@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    /* Temporary, to bring icons under control */
-    div#profile_links>a>img {
-        max-height: 3em;
-    }
-
-    div#right_image>img {
-        max-height: 20em;
-    }
-</style>
 
 <head>
     <meta charset="utf-8" />
@@ -17,38 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="descritpion" content="Andrew Motz's Personal Website" />
     <meta name="author" content="Andrew Motz" />
+    <link href="base_styles.css" rel="stylesheet" />
+    <link href="index_styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#"><b>Home</b></a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="previous_work.html">Previous Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="CrossReference.html">Cross Reference</a></li>
-        </ul>
-        <div id="profile_links">
-            <a href="https://ca.linkedin.com/in/andrew-motz-4b4a25167" target="_blank"><img src="LI-In-Bug.png"
-                    alt="LinkedIn" /></a>
-            <a href="https://github.com/andrewmotz" target="_blank"><img src="GitHub-Mark-120px-plus.png"
-                    alt="GitHub" /></a>
-            <a href="mailto:andrewmozza555@gmail.com"><img src="icons8-email-52.png" alt="Email" /></a>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><b>Home</b></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="previous_work.html">Previous Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="CrossReference.html">Cross Reference</a></li>
+            </ul>
+            <div id="profile_links">
+                <a href="https://ca.linkedin.com/in/andrew-motz-4b4a25167" target="_blank"><img src="LI-In-Bug.png"
+                        alt="LinkedIn" /></a>
+                <a href="https://github.com/andrewmotz" target="_blank"><img src="GitHub-Mark-120px-plus.png"
+                        alt="GitHub" /></a>
+                <a href="mailto:andrewmozza555@gmail.com"><img src="icons8-email-52.png" alt="Email" /></a>
+            </div>
+        </nav>
+    </header>
 
-    <div id="main">
-        <div id="right_content">
+    <article>
+
+        <div id="left_content">
             <h1>Andrew Motz</h1>
             <p>TRU Student and aspiring software developer</p>
         </div>
         <div id="right_image">
             <img src="fb_profile_photo.jpg" alt="Place Holder Image" />
         </div>
-    </div>
+
+    </article>
 
     <footer>
-        <p>Copyright &copy 2020 Andrew Motz | Last modified DATE</p>
+        <p>Copyright &copy 2020 Andrew Motz | Last modified DATE | Background Photo: <a
+                style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                href="https://unsplash.com/@hayden?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                target="_blank" rel="noopener noreferrer"
+                title="Download free do whatever you want high-resolution photos from Hayden Scott"><span
+                    style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                        style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                        viewBox="0 0 32 32">
+                        <title>unsplash-logo</title>
+                        <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                    </svg></span><span style="display:inline-block;padding:2px 3px">Hayden Scott</span></a></p>
     </footer>
 </body>
 
