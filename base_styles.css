@@ -84,6 +84,7 @@ footer {
 
 footer > p {
     margin: .4em 0 .4em 0;
+    font-variant: small-caps;
 }
 
 /* Temporary, to bring icons under control */
