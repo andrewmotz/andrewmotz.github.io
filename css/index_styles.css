@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-    background: url(hayden-scott.jpg) no-repeat fixed center;
+    background: url(../images/hayden-scott.webp) no-repeat fixed center;
     background-size: cover;
 }
 

@@ -4,7 +4,7 @@ article {
     box-sizing: border-box;
     padding: 2em;
     width: 80%;
-    margin: 1em auto 0 auto;
+    margin: 2em auto 2em auto;
     background: rgba(255,255,255, .80);
     border-radius: 10px;
 }
@@ -200,4 +200,8 @@ div#right_image>img {
         transform: translate(0, 100%);
     }
     
+    /* Article styles */
+    article{
+        width: 90%;
+    }
 }

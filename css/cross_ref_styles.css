@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+html {
+    background: url(../images/james-donovan.webp) repeat fixed center;
+    background: cover;
+}
+
+article {
+    background: rgba(255, 255, 255, .9);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+html {
+    background: url(../images/chen-mizrach.webp) no-repeat fixed center;
+    background-size: cover;
+}
+
+article{
+    background: rgba(255, 255,255,.97);
+}
