@@ -51,7 +51,7 @@ nav > ul {
     margin: 0px 0px 0px 0px;
 }
 
-ul > li {
+ul > a > li {
     background-color: white;
     text-decoration: none;
     padding: .5em 1em .5em 1em;
@@ -59,7 +59,7 @@ ul > li {
     text-align: center;
 }
 
-ul > li:nth-of-type(5){
+ul > a:nth-of-type(5){
     border-right: 1px solid lightgray;
 }
 
@@ -133,7 +133,7 @@ div#right_image>img {
         display: none;
     }
 
-    nav > ul > li{
+    nav > ul > a > li{
         border: none;
         border-bottom: 1px solid lightgray;
         text-align: left;
@@ -151,8 +151,8 @@ div#right_image>img {
         height: 34px;
         position: absolute;
         cursor: pointer;
-        opacity: 0; /* hide this */
-        z-index: 2; /* and place it over the hamburger */
+        opacity: 0;
+        z-index: 2; 
         top: 0;
         left: 0;
     }
