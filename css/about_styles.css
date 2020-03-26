@@ -4,3 +4,15 @@ html {
     background: url(../images/graham-johnson.webp) no-repeat fixed center;
     background-size: cover;
 }
+
+video {
+    width: 20em;
+    height: auto;
+}
+
+figure {
+    border: 1px solid gray;
+    padding: 1em;
+    display: inline-block;
+    border-radius: 9px;
+}
