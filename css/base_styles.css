@@ -78,9 +78,13 @@ a:visited {
 a:link {
     color: black;
 }
-li:hover, a:hover {
+li:hover, a:hover+li {
     background-color: lightgray;
     text-decoration: underline;
+}
+
+a:hover + img:hover, img:hover {
+    background: none;
 }
 
 /* Footer */
