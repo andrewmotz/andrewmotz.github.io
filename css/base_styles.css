@@ -207,5 +207,6 @@ div#right_image>img {
     /* Article styles */
     article{
         width: 90%;
+        padding-top: 0px;
     }
 }

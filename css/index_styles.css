@@ -43,4 +43,8 @@ div#left_content > p{
     footer{
         font-size: small;
     }
+    
+    #left_content > h1 {
+        margin-top: 0px;
+    }
 }
