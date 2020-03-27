@@ -8,3 +8,10 @@ html {
 article{
     background: rgba(255, 255,255,.97);
 }
+
+figure{
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: inline-block;
+    padding: .5em;
+}

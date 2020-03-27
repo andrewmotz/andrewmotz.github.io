@@ -7,6 +7,7 @@ article {
     margin: 2em auto 2em auto;
     background: rgba(255,255,255, .80);
     border-radius: 10px;
+    text-align: center;
 }
 
 html {
@@ -22,7 +23,10 @@ body {
         flex-direction: column;
         justify-content: space-between;    
 }
-
+/* Article Styles */
+div#main > h1{
+    margin-top: 0px;
+}
 /* Nav Bar */
 header{
     position: sticky;
@@ -202,11 +206,5 @@ div#right_image>img {
     /* Nav bar animation */
     header input:checked ~ nav {
         transform: translate(0, 100%);
-    }
-    
-    /* Article styles */
-    article{
-        width: 90%;
-        padding-top: 0px;
     }
 }

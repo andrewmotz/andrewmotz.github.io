@@ -8,3 +8,27 @@ html {
 article{
     background: rgba(255, 255,255,.97);
 }
+
+#mediaImages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+#mediaImages img {
+    width: 90%;
+    height: auto;
+}
+
+#mediaImages figure {
+    box-sizing: content-box;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 1em;
+    width: 10em;
+    margin: 0px;
+}
+#mediaImages figcaption {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
