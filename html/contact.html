@@ -50,39 +50,57 @@
 
     <article>
         <div id="main">
-            <h1>Media links</h1>
-            <div id="mediaImages">
-                <a href="https://ca.linkedin.com/in/andrew-motz-4b4a25167" target="_blank">
-                    <figure>
-                        <figcaption>LinkedIn</figcaption>
-                        <img src="../images/LI-In-Bug.png" alt="LinkedIn" />
-                    </figure>
-                </a>
-                <a href="https://github.com/andrewmotz" target="_blank">
-                    <figure>
-                        <figcaption>GitHub</figcaption>
-                        <img src="../images/GitHub_Logo.png" alt="GitHub" />
-                    </figure>
-                </a>
-                <a href="mailto:andrewmozza555@gmail.com">
-                    <figure>
-                        <figcaption>Email</figcaption>
-                        <img src="../images/icons8-email-52.png" alt="Email" />
-                    </figure>
-                </a>
-                <a href="resumeplaceholder.pdf">
-                    <figure>
-                        <figcaption>Resume</figcaption>
-
-                        <p>PDF Download</p><img src="../images/document_icon.png" />
-                    </figure>
-                </a>
+            <div id="mediaLinks">
+                <h1>Media links</h1>
+                <div id="mediaImages">
+                    <a href="https://ca.linkedin.com/in/andrew-motz-4b4a25167" target="_blank">
+                        <figure>
+                            <figcaption>LinkedIn</figcaption>
+                            <img src="../images/LI-In-Bug.png" alt="LinkedIn" />
+                        </figure>
+                    </a>
+                    <a href="https://github.com/andrewmotz" target="_blank">
+                        <figure>
+                            <figcaption>GitHub</figcaption>
+                            <img src="../images/GitHub_Logo.png" alt="GitHub" />
+                        </figure>
+                    </a>
+                    <a href="mailto:andrewmozza555@gmail.com">
+                        <figure>
+                            <figcaption>Email</figcaption>
+                            <img src="../images/icons8-email-52.png" alt="Email" />
+                        </figure>
+                    </a>
+                    <a href="resumeplaceholder.pdf">
+                        <figure>
+                            <figcaption>Resume</figcaption>
+                            <img src="../images/document_icon.png" />
+                        </figure>
+                    </a>
+                </div>
             </div>
-            <br />
-            <h2>Contact me directly</h2>
-            <form action="https://formcarry.com/s/waTxRNs4KtWl" method="POST" accept-charset="UTF-8" >
-                <input type="hidden" name="_gotcha"> <!--For catching spam from formcarry-->
-            </form>
+            <div id="contactForm">
+                <h2>Contact me directly</h2>
+                <form action="https://formcarry.com/s/waTxRNs4KtWl" method="POST" accept-charset="UTF-8">
+                    <legend>Test</legend>
+                    <div>
+                        <label for="Name">Name:</label>
+                        <input type="text" id="Name" name="name" placeholder="Name" size="18" required />
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Email" size="18"
+                            pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+                            required />
+                    </div>
+                    <textarea></textarea>
+                    <div>
+                        <input type="submit" />
+                    </div>
+                    <!--For catching spam from formcarry-->
+                    <input type="hidden" name="_gotcha">
+                </form>
+            </div>
         </div>
     </article>
 

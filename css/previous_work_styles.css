@@ -10,7 +10,7 @@ article{
 }
 
 figure{
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5px;
     display: inline-block;
     padding: .5em;

@@ -22,13 +22,38 @@ article{
 
 #mediaImages figure {
     box-sizing: content-box;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 8px;
     padding: 1em;
     width: 10em;
-    margin: 0px;
+    height: 12em;
+    margin: 1em;
 }
 #mediaImages figcaption {
     font-weight: bold;
-    margin-bottom: 1em;
+    margin: .5em 0em .5em 0em;
+}
+
+form input {
+    display: inline;
+}
+form{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+form div {
+    margin: 1em;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#mediaLinks {
+    flex-basis: 60%;
 }
