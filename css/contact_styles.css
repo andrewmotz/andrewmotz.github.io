@@ -71,3 +71,8 @@ h1 {
 label{
     display: block;
 }
+
+legend {
+    font-size: small;
+    font-style: italic;
+}
