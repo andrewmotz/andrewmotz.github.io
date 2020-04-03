@@ -14,4 +14,19 @@ figure{
     border-radius: 5px;
     display: inline-block;
     padding: .5em;
+    width: 25rem;
+}
+
+figure img {
+    width: 100%;
+}
+
+#BB_Container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#BB_Container > div {
+    flex-basis: 40rem ;
 }
