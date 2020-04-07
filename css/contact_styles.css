@@ -33,7 +33,7 @@ article{
     font-weight: bold;
     margin: .5em 0em .5em 0em;
 }
-
+/* Form Styles */
 form input {
     display: inline;
 }
@@ -44,10 +44,32 @@ form {
     text-align: left;
 }
 
+form > div > input:focus:valid {
+    background: rgba(0, 255, 0, 0.2);
+}
+
+form > div > input:focus:invalid {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+form > div:last-child > input {
+    background: white;
+}
+
+label{
+    display: block;
+}
+
 form div {
     margin: 1em;
 }
 
+legend {
+    font-size: small;
+    font-style: italic;
+}
+
+/* Main body styles */
 #main {
     display: flex;
     justify-content: space-around;
@@ -68,11 +90,3 @@ h1 {
     font-size: 2.5em;
 }
 
-label{
-    display: block;
-}
-
-legend {
-    font-size: small;
-    font-style: italic;
-}
