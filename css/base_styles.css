@@ -130,7 +130,7 @@ div.right_image>img {
     max-height: 30em;
 }
 
-/* Tablet */
+/* Tablet Styles */
 @media screen and (max-width : 791px){
     nav #profile_links {
         display: none;
