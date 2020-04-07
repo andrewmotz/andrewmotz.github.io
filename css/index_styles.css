@@ -13,7 +13,7 @@ article {
     background: none;
 }
 
-div#right_image > img {
+div.right_image > img {
     border-radius: 20px;
     max-width: 100%;
     border: 6px solid hsla(360, 100%, 100%, 0.9);
@@ -22,6 +22,7 @@ div#right_image > img {
 div#left_content {
     color: white;
     font-size: 2em;
+    text-shadow: 0px 0px 3px black;
 }
 div#left_content > h1 {
     box-sizing: border-box;
