@@ -87,6 +87,7 @@ div#profile_links a:nth-of-type(3) {
 /* Link styles */
 a {
     text-decoration: none;
+    overflow-wrap: break-word;
 }
 a:visited {
     color: black;
