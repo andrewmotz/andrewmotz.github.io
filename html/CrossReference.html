@@ -19,7 +19,7 @@
         <span></span>
         <span></span>
         <span></span>
-        <nav>
+        <nav id="242d">
             <div id="white_space"></div>
             <ul>
                 <a href="../index.html">
@@ -53,77 +53,119 @@
         <h2>2.1 - Deliverables and Details</h2>
         <h3>2.1.1 - Web Sites similar to your site</h3>
         <p>1) <a href="https://www.marcolussetti.com/" target="_blank">https://www.marcolussetti.com/</a></p>
+        <p>I like the clean and simple feel.</p>
         <p>2) <a href="https://ethanmarcotte.com/" target="_blank">https://ethanmarcotte.com/</a></p>
+        <p>The webpage has good adaptiveness. Looks good on desktop and mobile</p>
         <p>3) <a href="https://github.com/HackathonHackers/personal-sites"
                 target="_blank">https://github.com/HackathonHackers/personal-sites</a></p>
+        <p>Has alot of personal sites. Good bank of examples to pull from.</p>
         <p>4) <a href="https://vinayh.com/" target="_blank">https://vinayh.com/</a></p>
+        <p>Here is a site pulled from the GitHub Hackathon page linked above. This is another clean and simple page.</p>
+
         <h3>2.1.2 - Downloadable Sites</h3>
-        <p>https://brand.linkedin.com/downloads</p>
-        <p>https://github.com/logos</p>
-        <p>https://icons8.com/icons/set/email</p>
-        <p>https://unsplash.com/about</p>
+        <p>1) <a href="https://brand.linkedin.com/downloads">https://brand.linkedin.com/downloads</a></p>
+        <p>Stock logo from LinkedIn.</p>
+        <p>2) <a href="https://github.com/logos">https://github.com/logos</a></p>
+        <p>Stock logos from GitHub.</p>
+        <p>3) <a href="https://icons8.com/icons/set/email">https://icons8.com/icons/set/email</a></p>
+        <p>Free to use icons for my email links.</p>
+        <p>4) <a href="https://unsplash.com/about">https://unsplash.com/about</a></p>
+        <p>Lots of beautiful images to use. You don't have to credit but it is appreciated.</p>
+
         <h3>2.1.3 - Technical Information</h3>
-        <p>Content</p>
+        <p>1) <a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
+        <p>Lots of tutorials that are easy to follow.</p>
+        <p>2) <a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a></p>
+        <p>Also lots of tutorials but they go abit more in depth compared to w3schools.</p>
+        <p>3) <a href="https://github.com/">https://github.com/</a></p>
+        <p>Allows me to use all my devices in sync. Also allows publishing the page and hosting right off github itself.
+        </p>
 
         <h2>2.2 - Cross Refernce Page</h2>
-        <p>Content</p>
+        <p>You are looking at it!</p>
 
-        <h2>2.3 - Web Site Design</h2>
-        <p>Content</p>
+        <!-- <h2>2.3 - Web Site Design</h2>
+        <p>See nav bar up top.</p> -->
 
         <h2>2.4 - Minimum Requirements Features</h2>
         <h3>2.4.1 - HTML5</h3>
-        <h4>A)</h4>
-        <p>Content</p>
-        <h4>B)</h4>
-        <p>Content</p>
-        <h4>C)</h4>
-        <p>Content</p>
-        <h4>D)</h4>
-        <p>Content</p>
-        <h4>E)</h4>
-        <p>Content</p>
+        <h4>A) Appropriate HTML5 tags</h4>
+        <p>Used through out all pages. &ltnav&gt, &lta&gt, &ltp&gt, &ltul&gt, &ltfigure&gt, &ltspan&gt and more are
+            used.</p>
+        <h4>B) Inline images both static and clickable.</h4>
+        <p>Unclickable image: <a href="about.html#241bi">Motorcycle Image</a></p>
+        <p>Clickable image: <a href="previous_work.html#c ">Bubbles and Borks logo</a></p>
+        <h4>C) Use of appropriate special characters.</h4>
+        <p><a href="#241c">The &copy used in footer</a></p>
+        <h4>D) Use of appropriate
+            <meta> tags.</h4>
+        <p>Used in each head of each page for viewport and other meta tags.</p>
+        <h4>E) A footer on the home page indicating when the web site was last updated or modified.</h4>
+        <p><a href="#241c">Footer</a></p>
 
         <h3>2.4.2 - CSS3</h3>
-        <h4>A)</h4>
+        <h4>A) Use CSS3 to format the appearance of paragraphs, lists, headers, background images, tables, forms.</h4>
+        <p>Example of CSS on a <a href="contact.html#contactForm">form</a>. Border and spacing was done is CSS.</p>
+
+        <h4>B) Use CSS3 contextual selectors (e1, e2, e3; e f; e > f; e + f) and at least two attribute selectors,
+            excluding class and id attribute selectors.</h4>
+        <p>The nav bar uses "ul > a:nth-of-type(5)" to add a gray border on right side of the last &lta&gt. The other
+            ones have only a border on the left.</p>
+
+        <h4>C) Use of CSS3 styles for color (RGBA & HSLA).</h4>
+        <p>For the rgb I used "rgba(255,255,255, .80)" for a white and semi transparent background for the article of
+            each page. Done in base_styles.css on line: 8.</p>
+        <p>For hsla I set the nav to "hsla(0, 100%, 100%, 0.9)". Done in base_styles.css on line: 49.</p>
+
+        <h4>D) Use of dynamic pseudo-classes to highlight hyperlinks states of link, visited, active, hover; focus and
+            two structural pseudo-classes: first-of-type and last-of-type.</h4>
+        <p>The <a href="#242d">nav bar links</a> are styled in base_styles.css line: 77 to 94. link, active, visited and
+            hover are used.</p>
+        <p>The nav hamburger uses structural pseudo-classes in base_styles.css line 203 to 222.</p>
+
+        <h4>E) Use of CSS3 background styles (background size, background-clip, background-origin, padding, margins,
+            borders, use of an appropriate border style, use of rounded corners.</h4>
+        <p>The <a href="">article</a> of all the pages uses background properties such as border-radius.</p>
+        <p>The background images of all the pages use "background: url(X) no-repeat fixed center;" and "background-size:
+            cover;".
+            index_style.css will have this in the top of the file.</p>
+
+        <h4>F) Your home page should have a drop cap created with CSS3.</h4>
+        <p>I dont think a drop cap fits the style of my homepage. So I will add it here to prove I can!</p>
+        <p id="dropcap">Hello world! Vel melius vocibus vituperatoribus cu, percipit apeirian ad vim. Wisi paulo semper
+            cu est, elit putent habemus ea ius. Eos luptatum detraxit expetendis et, eu nibh quas delectus eos. Ius
+            ubique graecis in, usu everti audiam liberavisse in. Eros facer his no, usu ad fugit partiendo ocurreret.
+        </p>
+        
+        <h4>G) Define document content with the class and id properties and create styles for them.</h4>
         <p>Content</p>
-        <h4>B)</h4>
+        <h4>H) Use cascading styles to control page layout by using either grid, flex, float, positioning. The use of
+            framework for layout is discouraged due to too many unknown factors.</h4>
         <p>Content</p>
-        <h4>C)</h4>
+        <h4>I) Use of CSS3 text and box shadows.</h4>
         <p>Content</p>
-        <h4>D)</h4>
+        <h4>J) Use of CSS3 transform rotate feature.</h4>
         <p>Content</p>
-        <h4>E)</h4>
-        <p>Content</p>
-        <h4>F)</h4>
-        <p>Content</p>
-        <h4>G)</h4>
-        <p>Content</p>
-        <h4>H)</h4>
-        <p>Content</p>
-        <h4>I)</h4>
-        <p>Content</p>
-        <h4>J)</h4>
-        <p>Content</p>
-        <h4>K)</h4>
+        <h4>K) Use of CSS3 opacity applied to two images to appear semi-transparent.</h4>
         <p>Content</p>
 
         <h3>2.4.3 - Web Form</h3>
-        <h4>A)</h4>
+        <h4>A) Use of appropriate form elements including some of the new HTML5 form elements.</h4>
         <p>Content</p>
-        <h4>B)</h4>
+        <h4>B) Apply appropriate styles to Web Forms.</h4>
         <p>Content</p>
-        <h4>C)</h4>
+        <h4>C) Apply inline form validation by using the focus pseudo-class to appropriate form elements.</h4>
         <p>Content</p>
 
         <h3>2.4.4 - Graphical Web Tables</h3>
-        <h4>A)</h4>
+        <h4>A) Use of graphical web tables to depict relevant data that is appropriate to the business.</h4>
         <p>Content</p>
 
         <h3>2.4.5 - Multimedia Minimum</h3>
-        <h4>A)</h4>
+        <h4>A) Use sound, video somewhere on your site. Ensure these are of short duration preferably about 30 seconds.
+        </h4>
         <p>Content</p>
-        <h4>B)</h4>
+        <h4>B) Use of transitions and animations</h4>
         <p>Content</p>
 
         <h3>2.4.6 - JavaScript</h3>
@@ -166,7 +208,7 @@
         <p>Content</p>
     </article>
     <footer>
-        <p>Copyright &copy 2020 Andrew Motz | Last modified DATE | Background Photo: <a
+        <p id="241c">Copyright &copy 2020 Andrew Motz | Last modified DATE | Background Photo: <a
                 style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
                 href="https://unsplash.com/@jmsdono?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
                 target="_blank" rel="noopener noreferrer"
