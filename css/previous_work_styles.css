@@ -25,6 +25,7 @@ figure img {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
 }
 
 #BB_Container > div {
@@ -76,10 +77,11 @@ h4 {
 
 #notifi_flex {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 
 #notifi {
@@ -90,6 +92,6 @@ h4 {
     flex-basis: 15em;
 }
 
-#notifi_flex > p {
+#notifi_flex > div {
     flex-basis: 38em;
 }
