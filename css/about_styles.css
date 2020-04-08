@@ -22,6 +22,15 @@ figcaption {
     margin-bottom: .5rem;
 }
 
+#messageMeText:link, #messageMeText:visited {
+    color: blue;
+}
+
+#messageMeText:hover, #messageMeText:active {
+    color: darkblue;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 680px){
     video {
         width: 100%;

@@ -41,3 +41,8 @@ article a:hover, article a:active {
   margin: 0;
   line-height: .8em;
 }
+
+article li:hover {
+    text-decoration: none;
+    background: none;
+}
