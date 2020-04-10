@@ -1,6 +1,6 @@
 "use strict"
 
-
+// Validate Form
 document.getElementById("submitButton").addEventListener("click", validateForm);
 
 function validateForm(){
@@ -15,4 +15,17 @@ function validateForm(){
             element.focus();
         }
     }
+}
+
+//Time
+window.addEventListener("load", setTime);
+var currentTimeElement = window.document.getElementById("currentTime");
+currentTimeElement.style = "font-size:small; margin:0;font-style:italic;";
+
+function setTime(){
+    var HTMLcode = "Current Date and Time: ";
+    var todayDate = new Date();
+    HTMLcode += todayDate.toLocaleString();
+    
+    document.getElementById("currentTime").innerHTML = HTMLcode;
 }

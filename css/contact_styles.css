@@ -99,3 +99,9 @@ h1 {
     width: 9em;
     color: white;
 } 
+
+@media screen and (max-width: 680px){
+    #submitButtons input {
+       width: 100%;
+    } 
+}
