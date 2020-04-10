@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <link href="../css/base_styles.css" rel="stylesheet" />
     <link href="../css/contact_styles.css" rel="stylesheet" />
+    <script src="../contactJS.js" defer></script>
 </head>
 
 <body>
@@ -82,7 +83,8 @@
             </div>
             <div id="contactForm">
                 <h2 id="2481">Contact me directly</h2>
-                <form action="https://formspree.io/mvoqnppn" method="POST" accept-charset="UTF-8">
+                <!-- action="https://formspree.io/mvoqnppn" method="POST" accept-charset="UTF-8" -->
+                <form >
                     <legend>Required feilds in bold</legend>
                     <div>
                         <label for="Name"><b>Name: </b></label>
@@ -99,7 +101,7 @@
                         <textarea rows="5" name="message" id="message" placeholder="Optional message here"></textarea>
                     </div>
                     <div id="submitButtons">
-                        <input type="submit" />
+                        <input type="submit" id="submitButton"/>
                         <input type="reset" />
                     </div>
                 </form>
