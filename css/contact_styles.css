@@ -44,11 +44,11 @@ form {
     text-align: left;
 }
 
-form > div > input:focus:valid {
+form > div > input[type = "text"]:focus:valid {
     background: rgba(0, 255, 0, 0.2);
 }
 
-form > div > input:focus:invalid {
+form > div > input[type = "text"]:focus:invalid {
     background: rgba(255, 0, 0, 0.2);
 }
 
@@ -99,7 +99,7 @@ h1 {
     margin: .5em .25em .5em .25em;
     width: 9em;
     color: white;
-} 
+}
 
 @media screen and (max-width: 680px){
     #submitButtons input {

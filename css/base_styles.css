@@ -65,7 +65,7 @@ ul > a > li {
     text-align: center;
 }
 
-ul > a:nth-of-type(5){
+ul > a:last-of-type {
     border-right: 1px solid lightgray;
 }
 
