@@ -196,11 +196,11 @@ div.right_image>img {
         height: 6px;
         margin-bottom: 3px;
         position: relative;
-
+        box-sizing: border-box;
         top: .5em;
         left: .5em;
-  
-        background: black;
+        border: 1px solid gray;
+        background: white;
         border-radius: 4px;
 
         z-index: 1;
@@ -208,6 +208,7 @@ div.right_image>img {
         transform-origin: 5px 5px;
         transition: transform 0.5s ease-out,
               background 0.5s ease-out,
+              border 0.5s ease-out,
               opacity 0.55s ease-out;
     }
 
@@ -227,9 +228,14 @@ div.right_image>img {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, 1px);
         background: #232323;
+        border: none;
     }
     /* Nav bar animation */
     header input:checked ~ nav {
         transform: translate(0, 124%);
+    }
+
+    article {
+        width: 95%;
     }
 }

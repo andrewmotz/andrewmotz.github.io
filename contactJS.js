@@ -17,7 +17,7 @@ function validateForm(){
     }
 }
 
-//Time
+//Put the current time on form
 window.addEventListener("load", setTime);
 var currentTimeElement = window.document.getElementById("currentTime");
 currentTimeElement.style = "font-size:small; margin:0;font-style:italic;";
