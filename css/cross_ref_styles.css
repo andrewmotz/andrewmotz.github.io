@@ -6,6 +6,10 @@ html {
     /* overflow: auto; */
 }
 
+body {
+    /* overflow: auto; */
+}
+
 article {
     background: rgba(255, 255, 255, .9);
     margin-top: 2em;
