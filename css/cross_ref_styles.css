@@ -3,11 +3,11 @@
 html {
     background: url(../images/james-donovan.webp) repeat fixed center;
     background: cover;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 body {
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 article {
