@@ -239,3 +239,8 @@ div.right_image>img {
         width: 95%;
     }
 }
+
+h1 {
+    margin-top: 0px;
+    font-size: 2.5em;
+}

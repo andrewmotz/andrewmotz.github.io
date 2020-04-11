@@ -2,7 +2,7 @@
 
 html {
     background: url(../images/james-donovan.webp) repeat fixed center;
-    background: cover;
+    background-size: cover;
     /* overflow: auto; */
 }
 

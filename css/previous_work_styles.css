@@ -66,12 +66,12 @@ h4 {
     margin-top: .5em;
 }
 
-#visibleLink:link, #visibleLink:visited {
+.visibleLink:link, .visibleLink:visited {
     color: blue;
     text-decoration: underline;
 }
 
-#visibleLink:hover, #visibleLink:active {
+.visibleLink:hover, .visibleLink:active {
     color: rgb(56, 58, 190);
 }
 

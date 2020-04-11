@@ -64,7 +64,8 @@ form div {
     margin: 1em;
 }
 
-legend {
+#note {
+    margin-top: 0;
     font-size: small;
     font-style: italic;
 }
