@@ -2,6 +2,7 @@
 
 html {
     background: url(../images/hayden-scott.webp) no-repeat fixed center;
+    background: url(../images/hayden-scott-medium.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
@@ -44,7 +45,12 @@ div#left_content > p{
 }
 
 #messageMeText a {
-    color: white;
+    background: rgb(255,255,255);
+    border-radius: 8px;
+    padding: .5em;;
+    text-align: center;
+    opacity: .9;
+    border: 1px solid gray;
 }
 
 @media screen and (max-width: 680px){
