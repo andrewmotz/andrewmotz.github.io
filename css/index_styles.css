@@ -17,6 +17,7 @@ article {
 div.right_image > img {
     border-radius: 20px;
     max-width: 100%;
+    height: auto;
     border: 6px solid hsla(360, 100%, 100%, 0.9);
 }
 
@@ -66,3 +67,16 @@ div#left_content > p{
         margin-top: 0px;
     }
 }
+
+@media screen and (min-width: 900px){
+    html, body {
+        height: 100%;
+    }
+}
+
+/* iPad landscape styles */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    div.right_image > img {
+        width: 12em;    
+    }
+  }
