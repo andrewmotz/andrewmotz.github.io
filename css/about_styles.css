@@ -2,6 +2,7 @@
 
 html {
     background: url(../images/graham-johnson.webp) no-repeat fixed center;
+    background: url(../images/graham-johnson-mobile.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
