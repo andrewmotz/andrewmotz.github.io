@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+html {
+    background: url(../images/graham-johnson.webp) no-repeat fixed center;
+    background-size: cover;
+}
+
+video {
+    width: 20em;
+    height: auto;
+}
+
+figure {
+    border: 1px solid gray;
+    padding: 1em;
+    display: inline-block;
+    border-radius: 9px;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+#messageMeText:link, #messageMeText:visited {
+    color: blue;
+}
+
+#messageMeText:hover, #messageMeText:active {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.bikePhotos {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bikePhotos img {
+    width: 20rem;
+    height: 100%;
+    margin: 1em 0 1em 0;
+    border: 2px solid gray;
+    border-radius: .5em;
+}
+
+#astroFlex {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#astroText {
+    flex-basis: 40em;
+}
+
+@media screen and (max-width: 680px){
+    video {
+        width: 100%;
+        height: auto;
+    }
+    figure {
+        display: block;
+        margin: 1em 0em 1em 0em;
+    }
+
+    .bikePhotos img {
+        width: 10rem;
+    }
+    
+}

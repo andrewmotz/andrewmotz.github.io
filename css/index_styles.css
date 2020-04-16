@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+html {
+    background: url(../images/hayden-scott.webp) no-repeat fixed center;
+    background: url(../images/hayden-scott-medium.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    background: none;
+}
+
+div.right_image > img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 6px solid hsla(360, 100%, 100%, 0.9);
+}
+
+div#left_content {
+    color: white;
+    font-size: 2em;
+    text-shadow: 0px 0px 3px black;
+}
+div#left_content > h1 {
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    padding-bottom: .35em;
+}
+
+div#left_content > p{
+    margin-top: 0px;
+    padding-top: .35em;
+}
+
+#messageMeText {
+    position: relative;
+    text-align: center;
+    margin-bottom: .25em;
+    bottom:0;
+}
+
+#messageMeText a {
+    background: rgb(255,255,255);
+    border-radius: 8px;
+    padding: .5em;
+    text-align: center;
+    opacity: .9;
+    border: 1px solid gray;
+}
+
+@media screen and (max-width: 680px){
+    div#left_content {
+        text-align: center;
+    }
+
+    footer{
+        font-size: small;
+    }
+    
+    #left_content > h1 {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    html, body {
+        height: 100%;
+    }
+}
+
+/* iPad landscape styles */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    div.right_image > img {
+        width: 12em;    
+    }
+  }

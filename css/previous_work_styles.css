@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+html {
+    background: url(../images/christopher-gower.webp) no-repeat fixed center;
+    background-size: cover;
+}
+
+article{
+    background: rgba(255, 255,255,.97);
+}
+
+figure{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    padding: .5em;
+    width: 25rem;
+}
+
+figure img {
+    width: 100%;
+}
+
+#BB_Container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#BB_Container > div {
+    flex-basis: 40rem ;
+}
+
+#cssTable {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+#cssTable > div {
+    padding: 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+#row {
+    grid-column: 1 / span 2;
+}
+#cssTable > div:nth-child(4n) {
+    background: lightgray;
+}
+#cssTable > div:nth-child(4n + 3) {
+    background: lightgray;
+}
+#cssTable > div:nth-child(2n){
+    border-right: 1px solid gray;
+}
+
+h4 {
+    margin-bottom: .5em;
+}
+
+#tableNote {
+    margin-top: .5em;
+}
+
+.visibleLink:link, .visibleLink:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+.visibleLink:hover, .visibleLink:active {
+    color: rgb(56, 58, 190);
+}
+
+#notifi_flex {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#notifi {
+    margin-top: 4em;
+}
+
+#notifi_flex > figure {
+    flex-basis: 15em;
+}
+
+#notifi_flex > div {
+    flex-basis: 38em;
+}
