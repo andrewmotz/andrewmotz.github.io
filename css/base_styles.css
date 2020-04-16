@@ -190,7 +190,7 @@ div.right_image>img {
         left: 0;
     }
 
-    header span{
+    header span {
         display: block;
         width:34px;
         height: 6px;
@@ -232,7 +232,7 @@ div.right_image>img {
     }
     /* Nav bar animation */
     header input:checked ~ nav {
-        transform: translate(0, 124%);
+        transform: translate(0, 145%);
     }
 
     article {
