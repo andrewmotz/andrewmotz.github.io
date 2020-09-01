@@ -34,6 +34,12 @@ article{
     font-weight: bold;
     margin: .5em 0em .5em 0em;
 }
+
+.g-recaptcha, .g-recaptcha > * {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 /* Form Styles */
 form input {
     display: inline;
