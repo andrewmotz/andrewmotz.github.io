@@ -6,10 +6,6 @@ html {
     background-size: cover;
 }
 
-article{
-    background: rgba(255, 255,255,.97);
-}
-
 figure{
     border: 1px solid lightgray;
     border-radius: 5px;
