@@ -6,10 +6,6 @@ html {
     background-size: cover;
 }
 
-article{
-    background: rgba(255, 255,255,.97);
-}
-
 #mediaImages {
     display: flex;
     justify-content: space-around;
@@ -75,6 +71,10 @@ form div {
     margin-top: 0;
     font-size: small;
     font-style: italic;
+}
+
+textarea {
+    width: 100%;
 }
 
 /* Main body styles */
