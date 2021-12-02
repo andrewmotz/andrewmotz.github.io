@@ -18,6 +18,17 @@ figure img {
     width: 100%;
 }
 
+#flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex > div {
+    flex-basis: 40rem;
+}
+
 #BB_Container {
     display: flex;
     flex-flow: row wrap;
