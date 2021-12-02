@@ -23,6 +23,26 @@ figcaption {
     margin-bottom: .5rem;
 }
 
+#main > p {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+#flex > p {
+    width: 60%;
+}
+
+#flex > img {
+    width: 15em;
+}
+
 #messageMeText:link, #messageMeText:visited {
     color: blue;
 }
